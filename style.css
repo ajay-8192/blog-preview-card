@@ -63,8 +63,14 @@ body {
   padding: 24px;
 }
 
-.header, .attribution {
-  display: none;
+.header {
+  position: absolute;
+  top: 0;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
 }
 
 .content {
