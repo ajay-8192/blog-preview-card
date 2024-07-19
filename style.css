@@ -103,3 +103,8 @@ body {
 .description {
   color: var(--gray-500);
 }
+
+.heading:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
