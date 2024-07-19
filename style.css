@@ -26,7 +26,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  font-weight: 500;
 }
 
 /* Typography */
@@ -34,7 +33,7 @@ body {
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 0;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .text-preset-2 {
@@ -50,7 +49,7 @@ body {
 .text-preset-4 {
   font-size: 14px;
   line-height: 1.5;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .card {
@@ -61,6 +60,10 @@ body {
   border: 1px solid var(--gary-950);
   box-shadow: 8px 8px 0px 0px var(--gary-950);
   padding: 24px;
+}
+
+.card img {
+  border-radius: 10px;
 }
 
 .header {
@@ -85,7 +88,7 @@ body {
   align-items: center;
   gap: var(--s-150);
   color: var(--gary-950);
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .tag {
@@ -93,7 +96,7 @@ body {
   border-radius: 4px;
   color: var(--gary-950);
   padding: 4px 12px;
-  font-weight: bold;
+  font-weight: 800;
   width: min-content;
 }
 
