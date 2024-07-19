@@ -34,7 +34,7 @@ body {
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 0;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .text-preset-2 {
@@ -50,7 +50,7 @@ body {
 .text-preset-4 {
   font-size: 14px;
   line-height: 1.5;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .card {
@@ -79,7 +79,7 @@ body {
   align-items: center;
   gap: var(--s-150);
   color: var(--gary-950);
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .tag {
@@ -87,7 +87,7 @@ body {
   border-radius: 4px;
   color: var(--gary-950);
   padding: 4px 12px;
-  font-weight: 900;
+  font-weight: bold;
   width: min-content;
 }
 
